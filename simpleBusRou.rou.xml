@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-19 18:36:41 by Eclipse SUMO netedit Version 1.21.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="Bus" vClass="bus" color="232,52,32,0"/>
+    <vType id="DEFAULT_VEHTYPE" color="21,227,227,0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+	
+	<route id="bus1Route" edges="J4toJ5 J5toJ10 J10toJ15 J15toJ16 J16toJ17 J17toJ21"/>
+	<route id="bus2Route" edges="J20toJ16 J16toJ11 J11toJ12 J12toJ7 J7toJ3"/>
+	<route id="circleRoute" edges="J15toJ16 J16toJ17 J17toJ12 J12toJ7 J7toJ6 J6toJ5 J5toJ10 J10toJ15 J15toJ16"/>
+	<vehicle id="bus1" type="Bus" route="bus1Route" depart="0" color="0,255,232"/>
+	<vehicle id="bus3" type="Bus" route="circleRoute" depart="0" color="0,255,232"/>
+	<vehicle id="bus2" type="Bus" route="bus2Route" depart="80" color="0,255,232"/>
+
+</routes>
